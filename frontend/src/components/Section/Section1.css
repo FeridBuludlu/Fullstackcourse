@@ -1,0 +1,66 @@
+.text_course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    background-color: #ffb606;
+    h3{
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+    }
+    p{
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border: none;
+        margin-top: 100px;
+    }
+}
+.form_main{
+    width: 50%;
+    height: 100vh;
+    background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    opacity: 0.6;
+}
+
+.form_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 150px;
+    gap: 30px;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        input{
+            padding: 10px 70px ;
+            
+        }
+    }
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-size: 36px;
+    }
+
+
+}
+
+.main{
+    margin-top: 30px;
+}
